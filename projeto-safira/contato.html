@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="estilo.css">
+        <title>Contato</title>
+        <style>
+            form{
+                color:white;
+            }
+            input{
+                background-color: blanchedalmond;
+                color:black;
+            }
+            h2{
+                margin-bottom:0px;
+            }
+        </style>
+        
+    </head>
+    <body>
+        <main>
+                <nav class="menu">
+                        <ul>
+                            <li><a href="safira-0.html">home</a></li>
+                            <li><a href="transcendence.html">transcendence</a></li>
+                            <li><a href="sobre-mim.html">Sobre mim</a></li>
+                            <li><a href="">contato</a></li>
+                        </ul>
+                </nav>
+            
+                <h1>Contato</h1>
+                <h2>Formulário de Contato</h2>
+               <form>
+
+                    <fieldset>
+                        <legend>Identificação do Usuário</legend>
+                            <p><label for="idNome">Nome:<input type="text" name="nome" id="idNome" size="30" maxlength="30" placeholder="Usuário" ></label></p>
+
+                            <p><label for="idSenha">Senha:<input type="password" name="pass" id="idPass" size="8" maxlength="8" placeholder="8 Dígitos" ></label></p>
+
+                            <p><label for="idPass2">Confirme sua Senha:<input type="password" name="pass" id="idPass2" size="8" maxlength="8" placeholder="8 Dígitos" ></label></p>
+
+                            <p><label for="idEmail">E-mail:<input type="email" name="email" id="idEmail" size="20" placeholder="example@123.com" ></label></p>
+                            
+                            <fieldset>
+                                <legend>Sexo:</legend>
+                                <label for="masc"><input type="radio" name="sexo" id="masc"> Masculino</label>
+                                <p><label for="fem"><input type="radio" name="sexo" id="fem"> Feminino</label></p>
+                            </fieldset>
+                            
+                            <label for="idNasc">Data de Nascimento:<input type="date" name="nasc" id="idNasc"></label>
+                    </fieldset>
+                 
+                        <br>
+                    <fieldset>
+                        <legend>Endereço do Usuário</legend>
+                            <p><label for="idEnd">Logradouro:<input type="text" name="end" id="idEnd" size="70" maxlength="150" placeholder="Rua, Av., Travessa" ></label>
+
+                            <label for="idNum">Número:<input type="number" name="num" id="idNum" size="5" placeholder="Nº" min="0" ></label></p>
+                            <p>Estado:
+                                <label for="edEst"><select name="estado" id="idEst">
+                                    <option value="SP">São Paulo</option>
+                                    <option value="MG">Minas Gerais</option>
+                                    <option value="RS">Rio Grande do Sul</option>
+                                </label>
+                                </select>
+                            </p>
+                            <p><label for="idCid">Cidade:<input type="text" name="cid" id="idCid"></label></p>
+                    </fieldset>
+                    
+
+                    <fieldset>
+                        
+                        <p>Mensagem:<textarea cols="50" rows="6"></textarea></p>
+                        <label for="idEnviar"><input type="submit" value="Enviar" id="idEnviar" onclick="alert('Obrigado pela Mensagem')"></label>
+                    
+                    </fieldset>
+                        
+                    <footer>
+                    
+                            <p id="foot">Web Developer<sup>&reg;</sup><br><small>AR1N F3L1NUX</small></p>
+                        </footer>
+
+                        
+
+
+
+
+
+
+                </form>
+                
+        </main>
+    </body>
+</html>
